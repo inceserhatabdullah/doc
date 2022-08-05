@@ -1,10 +1,4 @@
-"""Variables type
-    1. Numbers
-    2. String
-    3. List
-    4. Tuple: Tuples can be thought of as read-only lists
-    5. Dictionary
-"""
+#!/usr/bin/env python3
 
 import openpyxl as xlsx
 
