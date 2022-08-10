@@ -31,12 +31,6 @@ class Item:
             raise Exception("You must have at least 5 characters")
         self.__attribute = value
        
-    def print_attributes(self):
-        print(f'Created this attributes: {self}')
-    
-    def calculate(self):
-        print( f'Quantity * price: {self.quantity * Item.price}' ) # self.price -> instance level
-    
     @classmethod
     def instantiate_from_csv(cls):
         # cls search it

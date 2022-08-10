@@ -31,5 +31,12 @@ if all(conditions):
 if any(conditions):
     pass
 
+if True: print('Hello'); a = 5 # * One line if statement 
+
+#                   DOCSTRING
+def _docstring():
+    """This is an example of a docstring statement"""
+    pass
+_docstring.__doc__
 
 # ? palindrome --> text.find(text[::-1]) == 0  "Return boolean value"

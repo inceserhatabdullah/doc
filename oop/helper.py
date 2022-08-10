@@ -1,7 +1,28 @@
 #!/usr/bin/env python3
 # When to use class methods and when to use static methods ?
 
-class Item:
+class Helper:
+    #* https://learnpython.com/blog/custom-class-python/
+    
+    def __init__(self):
+        self.helper = None
+        self.__private = None
+    
+    @property
+    def private(self):
+        return self.__private
+    
+    @private.setter
+    def private(self, value):
+        self.__private = value
+        
+    def __repr__(self) -> str:
+        #* https://www.pythontutorial.net/python-oop/python-__repr__/
+        return f'{self.__class__.__name__}({self.value})'
+    
+    def __str__(self) -> str:
+        return f'{self.value}'
+
     @staticmethod
     def is_integer():
         '''
@@ -20,6 +41,6 @@ class Item:
 
 # THE ONLY DIFFERENCE BETWEEN THOSE:
 # Static methods are not passing the object reference as the first argument in the background!
-
-
 # NOTE: However, those could be also called from instances.
+
+_ = Helper()

@@ -2,29 +2,30 @@
 
 Explore topics for improvement python skill from elementary to advanced level
 
-* [Algorithms_DataStructures]
-* [Comprehensions]
-* [OOP]
-* [Exceptions]
-* [Multithreading_MultiProcessing]
-* [Shallow_Deep_Copy]
-* [Keyword_List]
-* [Args_Kwargs]
-* [Decorator]
-* [Generator]
-* [MEDIUM_PYTHON_LEVEL]
-* [Playlist]
-* [Metaclass_Playlist]
-* [Concurrency_Parallelism]V
-* [Regex]
-* [Testing]
-* [Cython]
+* [Tutorial][Tutorial]
+* [Algorithms_DataStructures][Algorithms_DataStructures]
+* [Comprehensions][Comprehensions]
+* [OOP][OOP]
+* [Exceptions][Exceptions]
+* [Multithreading_MultiProcessing][Multithreading_MultiProcessing]
+* [Shallow_Deep_Copy][Shallow_Deep_Copy]
+* [Keyword_List][Keyword_List]
+* [Args_Kwargs][Args_Kwargs]
+* [Decorator][Decorator]
+* [Generator][Generator]
+* [MEDIUM_PYTHON_LEVEL][MEDIUM_PYTHON_LEVEL]
+* [Playlist][Playlist]
+* [Metaclass_Playlist][Metaclass_Playlist]
+* [Concurrency_Parallelism][Concurrency_Parallelism]V
+* [Regex][Regex]
+* [Testing][Testing]
+* [Cython][Cython]
 
 [medium_python_level]: https://medium.com/@navjeetbharti8877/python-milestones-basic-intermediate-advanced-and-expert-38ef6bdacbba
-[comprehensions]:https://www.programiz.com/search/comprehensions
+[comprehensions]: https://www.programiz.com/search/comprehensions
 [oop]: https://www.programiz.com/python-programming/object-oriented-programming
 [decorator]: https://www.programiz.com/python-programming/decorator
-[algorithms_datastructures]: https://www.programiz.com/dsa#:~:text=A%20data%20structure%20is%20a,efficient%20and%20optimized%20computer%20programs.
+[algorithms_datastructures]: https://www.programiz.com/dsa
 [generator]: https://www.programiz.com/python-programming/generator
 [multithreading_multiprocessing]: https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python#:~:text=What's%20the%20difference%20between%20Python,child%20processes%20bypassing%20the%20GIL.
 [shallow_deep_copy]: https://www.programiz.com/python-programming/shallow-deep-copy
@@ -37,3 +38,4 @@ Explore topics for improvement python skill from elementary to advanced level
 [regex]: https://www.programiz.com/python-programming/regex
 [testing]: https://realpython.com/python-testing/
 [cython]: https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
+[tutorial]: https://www.programiz.com/python-programming
